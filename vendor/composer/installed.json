@@ -1,0 +1,89 @@
+{
+    "packages": [
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "10.0.1",
+            "version_normalized": "10.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "3fbd244703d126fbabef6ef1904135ae79796bf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/3fbd244703d126fbabef6ef1904135ae79796bf9",
+                "reference": "3fbd244703d126fbabef6ef1904135ae79796bf9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "*",
+                "ext-gd": "*",
+                "friendsofphp/php-cs-fixer": "*",
+                "phpcompatibility/php-compatibility": "dev-develop",
+                "phpcsstandards/phpcsutils": "@alpha",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*",
+                "vimeo/psalm": ">=2"
+            },
+            "suggest": {
+                "ext-mbstring": "*"
+            },
+            "time": "2024-08-21T18:03:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/php-curl-class/php-curl-class/graphs/contributors"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "API-Client",
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http-client",
+                "http-proxy",
+                "json",
+                "php",
+                "php-curl",
+                "php-curl-library",
+                "proxy",
+                "requests",
+                "restful",
+                "web-scraper",
+                "web-scraping ",
+                "web-service",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/php-curl-class/php-curl-class/issues",
+                "source": "https://github.com/php-curl-class/php-curl-class/tree/10.0.1"
+            },
+            "install-path": "../php-curl-class/php-curl-class"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
